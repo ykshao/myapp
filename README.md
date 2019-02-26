@@ -6,11 +6,12 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 效果截图
+![效果截图](http://m.qpic.cn/psb?/V13IJOOu3WKJbc/KXaKKLpkvJ0kSap.DTEP9ea0tujTGkjN9zDaTGH2acw!/b/dFMBAAAAAAAA&bo=OAQvBQAAAAADBzQ!&rf=viewer_4)
+![效果截图](http://m.qpic.cn/psb?/V13IJOOu3WKJbc/UDrw3jgnvX4OjZoFgoZ.hhjWNMMuu3BQUiOw7q51*rQ!/b/dLwAAAAAAAAA&bo=OAS9BAAAAAADB6c!&rf=viewer_4)
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## 使用方式
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+安装相应的flutter环境我这里是用的mac电脑搭建的
+
+- [ ] flutter run ios
