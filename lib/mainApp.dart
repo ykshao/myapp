@@ -4,8 +4,7 @@ import './demo/drawer_demo.dart';
 import './demo/bottom_navigation_bar_demo.dart';
 import './demo/basic_demo.dart';
 
-// import './views/view_demo.dart';
-import './views/movie.dart';
+import './views/view_demo.dart';
 
 //添加http模块
 // import 'package:http/http.dart' as http;
@@ -17,19 +16,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: '我的电影应用',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
-        // highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
-        // splashColor: Colors.white70
+        primarySwatch: Colors.yellow,
+        highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
+        splashColor: Colors.white70
       ),
       // home: Home(),
-      home: MovieView(),
+      home: ViewDemo(),
     );
   }
 }
-
-
 
 class Home extends StatelessWidget {
   
