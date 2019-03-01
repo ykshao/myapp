@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
 
 class EachView extends StatefulWidget {
   final String _title;
@@ -11,14 +12,15 @@ class EachView extends StatefulWidget {
 class _EachViewState extends State<EachView> {
   @override
   Widget build(BuildContext context) {
+    final wordPair = new WordPair.random();
+
     return Scaffold(
-      
-     appBar: AppBar(
-       title: Text(widget._title),
-     ),
-     body: Center(
-       child: Text(widget._title),
-     ),
+      appBar: AppBar(
+        title: Text(widget._title),
+      ),
+      body: Center(
+        child: Text(wordPair.asPascalCase),
+      ),
     );
   }
 }

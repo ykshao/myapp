@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+
 import 'each_view.dart';
 
 class ViewDemo extends StatefulWidget {
@@ -11,10 +13,12 @@ class _ViewDemoState extends State<ViewDemo> {
 
   int _index = 0;
 
+
   @override
   void initState() {
     super.initState();
     _eachView = List();
+    
     _eachView..add(EachView('Home'))..add(EachView('airport_shuttle'));
   }
 

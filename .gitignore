@@ -18,6 +18,7 @@
 
 # Visual Studio Code related
 .vscode/
+.history
 
 # Flutter/Dart/Pub related
 **/doc/api/
